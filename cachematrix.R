@@ -30,7 +30,4 @@ cacheSolve <- function(x, ...) {
   inv
 }
 
-m1 <- matrix(c(1/5, -1/4, -1, 3/4), nrow = 2, ncol = 2)
-myMatrix_object <- makeCacheMatrix(m1)
-cacheSolve(myMatrix_object)
 
